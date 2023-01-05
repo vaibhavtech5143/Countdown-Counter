@@ -4,7 +4,7 @@
 
 
 function countdown() {
-  const newYearDate = new Date('27 Oct, 2022 12:00:00').getTime();
+  const newYearDate = new Date('1 Jan, 2024 12:00:00').getTime();
   const currenDate = new Date().getTime();
   const diffMilliseconds = (newYearDate - currenDate);
 
